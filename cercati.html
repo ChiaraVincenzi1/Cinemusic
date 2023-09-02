@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cinemusic</title>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@100;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/24391f1eb2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <img id="imglogo" src="imgs/Cinemusic 2.jpg" alt="Cinemusiclogo">
+                <li><a class="whitelink" href="index.html">Home</a></li>
+                <li><a class="whitelink" href= "documentazione.html">Documentazione</a></li>
+                <li><a class="whitelink" href="contatti.html">Contatti</a></li>
+                <li><a class="whitelink" href="accedi.html">Accedi</a></li>
+                <li><a class="whitelink" href="ricerca.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<section class="sectionricerca">
+        <h6>Trova il tuo film o la tua serie TV</h6>
+            <input class= "form-size form-control form-control-lg" type="text" placeholder="Cerca film, serie TV...">
+       </section>
+       
+       
+       <section>
+       <div class="dropdown">
+         <button class=" btn-avanzata btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Ricerca avanzata
+         </button>
+         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <a class="dropdown-item" href="#">Attore</a>
+           <a class="dropdown-item underline" href="anno.html">Anno</a>
+           <a class="dropdown-item" href="#">Genere</a>
+           <a class="dropdown-item underline" href="cercati.html">I più cercati</a>
+         </div>
+       </div>
+</section>
+
+
+
+<section class="sectioncercati">
+<h8>I più cercati</h8>
+</section>
+
+
+ <div class="album py-5 bg-#212221">
+        <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+             <img src="imgs/Forrest Gump.jpg" width="100%" height="225">
+            <div class="card-body">
+              <p class="card-text-search">Forrest Gump</p>
+              <p class="card-text">1994 | Drammatico/Romantico | 142 minuti</p>
+              <div class="d-flex justify-content-between align-items-center">
+      
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                  <i class="fa-solid fa-headphones"></i>
+                </button>
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Playlist</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ELdb3f7f4tn5LZimkFvLc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="imgs/Harry Potter.jpg" width="100%" height="225">
+            <div class="card-body">
+              <p class="card-text-search">Saga di Harry Potter</p>
+              <p class="card-text">2001-2011 | Fantasy | 7 film</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+      
+                <!-- Button trigger modal -->
+               <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal2">
+                <i class="fa-solid fa-headphones"></i>
+              </button>
+              
+              <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Playlist 3</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Hhgmomy1XS0sf8j9kWydz?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="imgs/Stranger Things.jpg" width="100%" height="225">
+            <div class="card-body">
+              <p class="card-text-search">Stranger Things</p>
+              <p class="card-text">2016 | Drammatico/Thriller | 5 stagioni</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+      
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal1">
+                <i class="fa-solid fa-headphones"></i>
+              </button>
+              
+              <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Playlist 3</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/69XhGLFj9vcr4FTyVI95J3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+
+
+      <div class="album py-5 bg-#212221">
+        <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+             <img src="imgs/Ocean 11.jpg" width="100%" height="225">
+            <div class="card-body">
+              <p class="card-text-search">Ocean 11</p>
+              <p class="card-text">2001 | Giallo/Commedia | 116 minuti</p>
+              <div class="d-flex justify-content-between align-items-center">
+      
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModa3">
+                  <i class="fa-solid fa-headphones"></i>
+                </button>
+                
+                <div class="modal fade" id="exampleModa3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Playlist</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6KWlK4GVAVCo5slOpg5QGy?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="imgs/Mercoledì.jpg" width="100%" height="225">
+            <div class="card-body">
+              <p class="card-text-search">Mercoledì</p>
+              <p class="card-text">2022 | Soprannaturale | 1 stagione</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+      
+                <!-- Button trigger modal -->
+               <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal4">
+                <i class="fa-solid fa-headphones"></i>
+              </button>
+              
+              <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Playlist 3</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXbyvJ0pcthaD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="imgs/Interstellar.jpg" width="100%" height="225">
+            <div class="card-body">
+              <p class="card-text-search">Interstellar</p>
+              <p class="card-text">2014 | Sci-fi/Avventura | 169 minuti</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+      
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal5">
+                <i class="fa-solid fa-headphones"></i>
+              </button>
+              
+              <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Playlist 3</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0cM4CGjXrPG7ApEHYAUipw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+
+<footer>
+<p>© 2023 Chiara Vincenzi</p>
+<p>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-regular fa-envelope"></i>
+</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cinemusic</title>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@100;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/24391f1eb2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <img id="imglogo" src="imgs/Cinemusic 2.jpg" alt="Cinemusiclogo">
+                <li><a class="whitelink" href="index.html">Home</a></li>
+                <li><a class="whitelink" href= "documentazione.html">Documentazione</a></li>
+                <li><a class="whitelink" href="contatti.html">Contatti</a></li>
+                <li><a class="whitelink" href="accedi.html">Accedi</a></li>
+                <li><a class="whitelink underline" href="ricerca.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="sectionricerca">
+ <h6>Trova il tuo film o la tua serie TV</h6>
+     <input class= "form-size form-control form-control-lg" type="text" placeholder="Cerca film, serie TV...">
+</section>
+
+
+<section>
+<div class="dropdown">
+  <button class=" btn-avanzata btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Ricerca avanzata
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Attore</a>
+    <a class="dropdown-item underline" href="anno.html">Anno</a>
+    <a class="dropdown-item" href="#">Genere</a>
+    <a class="dropdown-item underline" href="cercati.html">I più cercati</a>
+  </div>
+</div>
+</section>
+
+
+<section class="sectionplaylist">
+  <h6>Scopri le playlist di altri utenti <i class="fa-brands fa-spotify"></i></h6>
+  <div class="mb-3">
+    <input type="text" class="form-control" id="playlist" placeholder="Cerca film, serie TV..." required>
+  </div>
+
+<section>
+  <h7>Playlist condivise di recente</h7>
+
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-body-inspired">
+        <p class="card-text"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7uxjlKqjsax7Y4ygqT4fbf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+        <p class="card-text"><small class="text-muted">5 minuti fa</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body-inspired">
+        <p class="card-text"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2AGoguz7oahkqMmAS7YH7e?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+        <p class="card-text"><small class="text-muted">20 minuti fa</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body-inspired">
+        <p class="card-text"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0ugH07P9l6cFRt3gox90jf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+        <p class="card-text"><small class="text-muted">1 ora fa</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<form>
+  <div class="form-group">
+    <label class="form-playlist" for="exampleFormControlInput1">Condividi la tua playlist <i class="fa-solid fa-share"></i></label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Link Spotify">
+  </div>
+</form>
+
+
+
+
+
+<footer>
+<p>© 2023 Chiara Vincenzi</p>
+<p>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-regular fa-envelope"></i>
+</p>
+</footer>
+
+</body>
+</html>
