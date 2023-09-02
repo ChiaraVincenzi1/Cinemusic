@@ -15,15 +15,9 @@ header {
     }
 
 .whitelink {
-    padding-left: 50px;
-    padding-right: 50px;
-    color: #e19a2b; 
-
-    @media only screen and (max-width: 415px) {
-    padding-left: 30px;
-    padding-right: 30px;
-    
-    }
+padding-left: 50px;
+padding-right: 50px;
+color: blue; 
 }
 
 .underline {
