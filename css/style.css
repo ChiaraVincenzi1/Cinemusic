@@ -17,8 +17,16 @@ header {
 .whitelink {
 padding-left: 50px;
 padding-right: 50px;
-color: #e19a2b; 
+color: #e19a2b 
 }
+
+@media screen and (max-width: 420px) {
+.whitelink {
+padding-left: 30px;
+padding-right: 30px;
+}
+}
+
 
 .underline {
 text-decoration: underline;
