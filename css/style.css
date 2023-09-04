@@ -8,7 +8,7 @@ nav ul li {
 }
 
 @media screen and (max-width: 768px)  {
-dl, ol, ul {
+dl, ol, ul, {
 margin-top: 0 !important;
 margin-bottom: 1rem !important;
 display: flex !important;
@@ -34,8 +34,19 @@ text-decoration: underline;
 }
 
 a:hover {
-color: white; 
+color: white !important; 
 text-decoration: none;
+}
+
+/*mostra nav uno sotto l'altro da mobile*/
+@media screen and (max-width: 768px) {.container-nav{
+  max-width:100px !important;
+  
+  }}
+
+.col-md-4{
+  max-width:1500px !important;
+ 
 }
 
 h1 {
@@ -53,6 +64,9 @@ body {
 background-color: #212221;
 }
 
+.container {
+    max-width: 1600px !important;
+}
 .bd-example {
 padding-top: 0px;
 padding-right: 60px;
