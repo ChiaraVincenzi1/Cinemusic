@@ -7,12 +7,21 @@ nav ul li {
     display: inline-block;
 }
 
+@media screen and (max-width: 768px)  {
+dl ol ul {
+margin-top: 0 !important;
+margin-bottom: 1rem !important;
+display: flex !important;
+flex-direction: column !important;
+}
+}
+    
 header {
-    background-color: #212221;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: large;
-    }
+background-color: #212221;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+font-size: large;
+}
 
 .whitelink {
 padding-left: 50px;
@@ -78,6 +87,9 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 500; 
 font-size: x-large;
 color: white;
+}
+
+.h2index {
 margin-top: 20px;
 }
 
@@ -93,12 +105,15 @@ margin-top: 25px;
 }
 
 h3 {
-margin-top: 50px;
-text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-weight: 500;
 color: white;
 font-size: x-large;
+}
+
+.h3index {
+margin-top: 50px;
+text-align: center;
 }
 
 footer {
@@ -112,16 +127,12 @@ font-size: small;
 
 
 
-h4 /*contatti*/ { 
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
-color: white;
-font-size: x-large;
+.h2contatti /*contatti*/ { 
 margin-top: 50px;
 margin-bottom:30px;
 }
 
-.h4alignment {
+.h2alignement {
 margin-left: 15px;
 }
 
@@ -162,12 +173,6 @@ font-size: large;
 align-items: center;
 padding-top: 40px;
 padding-bottom: 40px;
-}
-
-h5 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
-color: white;
 }
 
 .form-signin {
@@ -230,11 +235,7 @@ color: #e19a2b;
 text-align: center;
 }
 
-h6 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
-color: white;
-font-size: x-large;
+.h2ricerca {
 margin-bottom: 40px;
 margin-top: 50px;
 }
@@ -270,11 +271,8 @@ margin-right: 20px;
 padding-top: 40px;
 }
 
-h7 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
+.h3ricerca {
 font-size: large;
-color: white;
 }  
 
 .card-body-inspired {
@@ -304,39 +302,41 @@ padding-top: 70px;
 margin-bottom: 40px;
 }
 
+  
 
-
-h8 /*cercati*/ {
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
-font-size: x-large;
-color: white;
-}  
-
-.sectioncercati {
+.sectioncercati /*cercati*/ {
 text-align: center;
 margin-top: 40px;
 } 
 
+@media screen and (max-width: 768px) { 
+.container {
+font-size: 14px !important;
+max-width: 1489px !important;
+}  
+}
+ 
 
 
-h9 /*documentazione*/ {
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
-font-size: x-large;
-color: white;
-} 
-
-.sectiondocumenti {
+.sectiondocumenti /*documentazione*/ {
 padding-top: 30px;
 }
 
-h10 {
+h4 {
 font-family: 'Montserrat', sans-serif;
 font-weight: 500;
 font-size: large;
 color: white;
+text-decoration: underline;
 } 
+
+h5 {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+font-size: large;
+color: white;
+text-decoration: underline;
+}
 
 .sectionabstract {
 padding-top: 30px;
