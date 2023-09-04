@@ -27,48 +27,51 @@
 
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <img id="imglogo" src="imgs/Cinemusic 2.jpg" alt="Cinemusiclogo">
-                <li><a class="whitelink" href="index.html">Home</a></li>
-                <li><a class="whitelink" href= "documentazione.html">Documentazione</a></li>
-                <li><a class="whitelink" href="contatti.html">Contatti</a></li>
-                <li><a class="whitelink" href="accedi.html">Accedi</a></li>
-                <li><a class="whitelink underline" href="ricerca.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="container-nav">
+     <nav>
+       <ul>
+        <img id="imglogo" src="imgs/Cinemusic 2.jpg" alt="Cinemusiclogo">
+        <li><a class="whitelink" href="index.html">Home</a></li>
+        <li><a class="whitelink" href= "documentazione.html">Documentazione</a></li>
+        <li><a class="whitelink" href="contatti.html">Contatti</a></li>
+        <li><a class="whitelink" href="accedi.html">Accedi</a></li>
+        <li><a class="whitelink underline" href="ricerca.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+       </ul>
+      </nav>
+    </div>
+  </header>
 
 <section class="sectionricerca">
- <h6>Trova il tuo film o la tua serie TV</h6>
+ <h2 class="h2ricerca">Trova il tuo film o la tua serie TV</h2>
      <input class= "form-size form-control form-control-lg" type="text" placeholder="Cerca film, serie TV...">
 </section>
 
 
 <section>
-<div class="dropdown">
-  <button class=" btn-avanzata btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <div class="dropdown">
+    <button class=" btn-avanzata btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Ricerca avanzata
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Attore</a>
-    <a class="dropdown-item underline" href="anno.html">Anno</a>
-    <a class="dropdown-item" href="#">Genere</a>
-    <a class="dropdown-item underline" href="cercati.html">I più cercati</a>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+     <a class="dropdown-item" href="#">Attore</a>
+     <a class="dropdown-item underline" href="anno.html">Anno</a>
+     <a class="dropdown-item" href="#">Genere</a>
+     <a class="dropdown-item underline" href="cercati.html">I più cercati</a>
+    </div>
   </div>
-</div>
 </section>
 
 
 <section class="sectionplaylist">
-  <h6>Scopri le playlist di altri utenti <i class="fa-brands fa-spotify"></i></h6>
+  <h2 class="h2ricerca">Scopri le playlist di altri utenti <i class="fa-brands fa-spotify"></i></h2>
   <div class="mb-3">
     <input type="text" class="form-control" id="playlist" placeholder="Cerca film, serie TV..." required>
   </div>
+</section>
 
 <section>
-  <h7>Playlist condivise di recente</h7>
+  <h3 class="h3ricerca">Playlist condivise di recente</h3>
 
   <div class="card-deck">
     <div class="card">
@@ -100,8 +103,6 @@
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Link Spotify">
   </div>
 </form>
-
-
 
 
 
