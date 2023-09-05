@@ -1,7 +1,9 @@
 #imglogo /*index*/ {
+  padding-top: 0px;
   height: 130px;
-  padding-right: 200px;
+  padding-right: 200px;  
 }
+
 /* Aggiungi uno sfondo bianco solo al link "Accedi" */
 a.whitelink[href="accedi.html"] {
 background-color: white;
@@ -17,9 +19,10 @@ a.whitelink[href="accedi.html"]:hover {
 background-color: #e19a2b; /* Cambia il colore di sfondo al passaggio del mouse */
 color: white; /* Cambia il colore del testo al passaggio del mouse */
 }
+
 /* Reset di alcuni stili di default */
 * {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -42,11 +45,6 @@ header {
   padding: 10px 20px;
 }
 
-/* Logo */
-#imglogo {
-  max-width: 100px;
-  height: auto;
-}
 
 /* Menu di navigazione */
 nav ul {
@@ -71,42 +69,6 @@ nav a {
 
 nav a:hover {
   color: #fff;
-}
-
-/* Banner */
-.banner {
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  margin-left: 20px;
-}
-
-.banner h2 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.banner p {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 20px;
-}
-
-.banner-button {
-  background-color: #e19a2b;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.banner-button:hover {
-  background-color: #d17a1f;
 }
 
 /* Titolo principale */
