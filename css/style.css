@@ -4,7 +4,7 @@
 }
 
 nav ul li {
-    display: -blocinlinek;
+    display: inline-block;
 }
 
 @media screen and (max-width: 768px)  {
