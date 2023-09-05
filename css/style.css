@@ -3,40 +3,39 @@
     padding-right: 200px;
 }
 
-/* Aggiungi questo stile per il menu di navigazione orizzontale da desktop */
+/* Stili di base per il menu di navigazione */
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: space-around; /* Regola la spaziatura tra gli elementi del menu */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Rende gli elementi figli disposti in orizzontale per impostazione predefinita */
+  align-items: center; /* Allinea verticalmente gli elementi del menu */
+}
+
+nav ul img {
+  max-height: 100px; /* Imposta un'altezza massima per il logo */
 }
 
 nav ul li {
-  display: inline; /* Assicura che gli elementi del menu siano disposti in linea orizzontale */
-  margin-right: 20px; /* Aggiungi spaziatura tra gli elementi del menu */
+  margin-right: 20px; /* Spaziatura tra gli elementi del menu */
 }
 
+/* Stili per schermi mobili (larghezza massima di 768px) */
 @media screen and (max-width: 768px) {
-  /* Stili per schermi con larghezza massima di 768px */
-  nav {
-    /* Mantieni il display flessibile */
-    display: flex !important;
-    flex-direction: column !important;
+  nav ul {
+    flex-direction: column; /* Imposta l'orientamento verticale per schermi mobili */
   }
 
   nav ul li {
-    /* Cambia la direzione dei flex item per il menu verticale */
-    display: flex !important;
-    flex-direction: column !important;
+    margin-right: 0; /* Rimuove la spaziatura tra gli elementi per la disposizione verticale */
+    margin-bottom: 10px; /* Aggiunge uno spazio tra gli elementi verticali */
   }
 
-  /* Altri stili per gli schermi mobili */
-  dl, ol, ul {
-    margin-top: 0 !important;
-    margin-bottom: 1rem !important;
-    display: flex !important;
-    flex-direction: column !important;
+  nav ul img {
+    max-height: 80px; /* Riduce l'altezza del logo per gli schermi mobili */
   }
 }
+
     
 header {
 background-color: #212221;
