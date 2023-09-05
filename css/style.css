@@ -3,14 +3,17 @@
     padding-right: 200px;
 }
 
-nav {
-    display: flex !important;
+@media screen and (max-width 768px) { nav {
+display: flex !important;
+}
 }
 
-nav ul li {
+@media screen and (max-width 768px) { nav ul li {
     display: flex !important;
     flex-direction: column !important;
 }
+}
+
 
 @media screen and (max-width: 768px)  {
 dl, ol, ul, {
