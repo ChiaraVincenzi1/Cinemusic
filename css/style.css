@@ -3,6 +3,10 @@
     padding-right: 200px;
 }
 
+nav {
+    display: flex !important;
+}
+
 nav ul li {
     display: flex !important;
     flex-direction: column !important;
