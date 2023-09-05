@@ -3,42 +3,13 @@
     padding-right: 200px;
 }
 
-/* Stili di base per il menu di navigazione */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; /* Rende gli elementi figli disposti in orizzontale per impostazione predefinita */
-  align-items: center; /* Allinea verticalmente gli elementi del menu */
-}
-
-nav ul img {
-  max-height: 100px; /* Imposta un'altezza massima per il logo */
+nav {
+  display: flex !important;
 }
 
 nav ul li {
-  margin-right: 20px; /* Spaziatura tra gli elementi del menu */
-}
-
-/* Stili per schermi mobili (larghezza massima di 768px) */
-@media screen and (max-width: 768px) {
-  nav ul {
-    flex-direction: column; /* Imposta l'orientamento verticale per schermi mobili */
-  }
-
-  nav ul li {
-    margin-right: 0; /* Rimuove la spaziatura tra gli elementi per la disposizione verticale */
-    margin-bottom: 10px; /* Aggiunge uno spazio tra gli elementi verticali */
-  }
-
-  nav ul img {
-    max-height: 80px; /* Riduce l'altezza del logo per gli schermi mobili */
-  }
-}
-
-/* Altri stili di base per il menu di navigazione */
-nav ul li {
-  display: inline; /* Assicura che gli elementi del menu siano disposti in linea orizzontale */
+display: flex !important;
+flex-direction: column !important;
 }
 
 /* Aggiungi uno sfondo bianco solo al link "Accedi" */
@@ -56,12 +27,6 @@ a.whitelink[href="accedi.html"]:hover {
   color: white; /* Cambia il colore del testo al passaggio del mouse */
 }
 
-/* Rimuovi il padding extra da .container-nav su schermi mobili */
-@media screen and (max-width: 768px) {
-  .container-nav {
-    padding: 0 !important;
-  }
-}
 
     
 header {
