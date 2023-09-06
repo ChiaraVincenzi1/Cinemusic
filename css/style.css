@@ -57,6 +57,7 @@ nav ul {
 nav ul li {
   margin-right: 20px;
   margin-top: 45px;
+  margin-left: 35px;
 }
 
 nav ul li:last-child {
@@ -309,6 +310,7 @@ text-align: center;
 .h2ricerca {
 margin-bottom: 40px;
 margin-top: 50px;
+text-align: center;
 }
 
 .form-size {
@@ -344,6 +346,7 @@ padding-top: 40px;
 
 .h3ricerca {
 font-size: large;
+text-align: center;
 }  
 
 .card-body-inspired {
@@ -371,6 +374,14 @@ padding-top: 70px;
 
 .form-playlist {
 margin-bottom: 40px;
+}
+
+.form-ricerca {
+text-align: center;
+}
+
+.underline-ricerca {
+text-decoration: underline;
 }
 
 
@@ -429,6 +440,10 @@ padding-top: 25px;
 
 .sectionobiettivi {
 padding-top: 20px;
+}
+
+.ul-doc {
+padding-left: 20px;
 }
 
 .imgstruttura {
