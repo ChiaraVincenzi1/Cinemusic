@@ -4,31 +4,26 @@
   padding-right: 200px;  
 }
 
-
-/* Aggiungi uno sfondo bianco solo al link "Accedi" */
 a.whitelink[href="accedi.html"] {
 background-color: white;
-padding: 5px 10px; /* Regola il padding per una migliore formattazione */
-border-radius: 5px; /* Aggiungi un bordo arrotondato se desiderato */
-color: #212221; /* Cambia il colore del testo per una migliore leggibilità */
-text-decoration: none; /* Rimuovi sottolineatura */
-
+padding: 5px 10px; 
+border-radius: 5px;
+color: #212221; 
+text-decoration: none;
 }
 
-/* Cambia lo stile al passaggio del mouse */
 a.whitelink[href="accedi.html"]:hover {
-background-color: #e19a2b; /* Cambia il colore di sfondo al passaggio del mouse */
-color: white; /* Cambia il colore del testo al passaggio del mouse */
+background-color: #e19a2b; 
+color: white; 
 }
 
-/* Reset di alcuni stili di default */
 * {
   margin-top: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Stile di base per il corpo della pagina */
+
 body {
   background-color: #212221;
   font-family: 'Montserrat', sans-serif;
@@ -37,7 +32,7 @@ body {
   color: #fff;
 }
 
-/* Header */
+
 header {
   background-color: #212221;
   display: flex;
